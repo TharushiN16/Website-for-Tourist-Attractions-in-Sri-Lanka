@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Sri Lanka</title>
+    <link rel="stylesheet" href="fort.css">
+    <!--<link rel="stylesheet" href="destinations.css">-->
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html" target="_self">Home</a></li>
+                <li><a href="destinations.html" target="_self">Top Attractions</a></li>
+                <li><a href="activities.html" target="_self">Activities</a></li>
+                <li><a href="culture.html" target="_self">Culture</a></li>
+                <li><a href="contact.html" target="_self">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ <div class="transbox">
+        
+	<h2>Contact Us</h2>
+	        
+	<p>DIAL 1912 from any phone within Sri Lanka to
+	access tourism Information.</p>
+
+	<p>Sri Lanka Tourism Head Office</p>
+
+	<p>+94 112426900</p>
+
+	<p>+94 112 440001 / 2426984</p>
+
+	<p>No. 80, Galle Road, Colombo 03, Sri Lanka.</p>
+    </div>
+
+<form action="submit_booking.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required>
+
+        <label for="departure_date">Departure Date:</label>
+        <input type="date" id="departure_date" name="departure_date" required>
+
+        <label for="return_date">Return Date:</label>
+        <input type="date" id="return_date" name="return_date" required>
+
+        <button type="submit">Submit Booking</button>
+    </form>
+
+

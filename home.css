@@ -1,0 +1,118 @@
+body{
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(Bridge.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #172d09;
+    color: #fff;
+    padding: 10px 0;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding:0px;
+    margin: 0px;;
+    overflow: hidden;
+   
+}
+
+nav li {
+    display: inline;
+    padding-right: 5px;
+}
+
+nav a {
+    display:block;
+    font-size: 18px;
+    text-align:center;
+    font-weight: bold;
+    color: #fff;
+    padding:10px 20px;
+    text-decoration: none;
+    font-family:'Harrington';
+}
+
+nav a:hover{
+    background-color: #7db15d;
+    color:#172d09
+}
+
+nav a.active{
+    background-color: #7db15d;
+    color: #172d09;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    color:#fff;
+    text-shadow: -2px 2px 4px rgba(18, 51, 21, 0.9),
+                2px -2px 0 rgba(18, 51, 21, 0.9);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#7db15d
+}
+
+ul {
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+li {
+    margin: 0 20px;
+}
+
+.home1 {
+    color:#93ba7a;
+    font-family: Harrington;
+    font-size: 50px;
+    text-shadow: -2px 2px 4px rgba(32, 90, 57, 0.9),
+                2px -2px 0 rgba(32, 90, 57, 0.9);
+
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005cbf;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #003f86;
+}
+
+.thumbnail {
+    width: 100%;
+  }
+
+.thumbnail-row {
+    margin-bottom: 12px;
+  }
+
+h3 {
+  color: #093c2a;
+  font-family:'Harrington';
+  text-shadow: -2px 2px 4px rgba(12, 56, 31, 0.9),
+              2px -2px 0 rgba(6, 47, 24, 0.9);
+}

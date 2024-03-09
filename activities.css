@@ -1,0 +1,45 @@
+.thumbnail {
+    width: 100%;
+  
+  }
+
+.thumbnail img{
+    
+}
+
+.thumbnail-row {
+    margin-bottom: 12px;
+  }
+
+.image-grid {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    justify-content: center;
+  }
+
+.container {
+    position:relative;
+    
+  }
+  
+.text-block {
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+    color: white ;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+div a {
+    display:block;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
